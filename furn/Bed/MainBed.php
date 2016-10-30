@@ -9,17 +9,18 @@
 
 namespace dir\furn\Bed;
 
-class MainBed extends Params implements BedInterface
+class MainBed extends AbsClass implements BedInterface
 {
     /**
      * @param name places price and color of Bed
      */
-    public function __construct($n, $pl, $pr, $c)
+    public function __construct($n, $pl, $pr, $c, $d)
     {
         $this->name = $n;
         $this->places = $pl;
         $this->price = $pr;
         $this->color = $c;
+        $this->floors = $d;
     }
 
     /**
@@ -27,7 +28,11 @@ class MainBed extends Params implements BedInterface
      */
     public function allInfo()
     {
-        $result = $this->name.' '.$this->places.' '.$this->price.' '.$this->color;
+        $result = $this->name.' '
+            .$this->places.' '
+            .$this->price.' '
+            .$this->color.' '
+            .$this->floors;
         echo $result;
     }
 
@@ -38,5 +43,10 @@ class MainBed extends Params implements BedInterface
     public function showPrice()
     {
         echo $this->name.' '.$this->price;
+    }
+
+    public function people()
+    {
+        // TODO: Implement people() method.
     }
 }
