@@ -9,11 +9,13 @@
 
 namespace dir\furn\Locker;
 
+use dir\furn\Traits\Parameters;
+
 class Params
 {
-    public $name = 'name of locker';
+    use Parameters;
+
     public static $width = 0;
     public static $height = 0;
-    public $price = 0;
-    public $countPol = 0;
+    private $countPol = 0; //MainLocker will not inherit this property
 }

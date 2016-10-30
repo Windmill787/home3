@@ -11,21 +11,21 @@ namespace dir\furn\Locker;
 
 class MainLocker extends AbsClass implements LockerInterface
 {
-    public function __construct($n, $wi, $h, $p)
+    public function __construct($n, $p, $wi, $h)
     {
         $this->name = $n;
+        $this->price = $p;
         self::$width = $wi;
         self::$height = $h;
-        $this->price = $p;
-
     }
 
     public function allInfo()
     {
         echo $this->name, "\n"
+            .$this->price, "\n"
             .self::$width, "\n"
-            .self::$height, "\n"
-            .$this->price, "\n";
+            .self::$height, "\n";
+
     }
 
     public function setPrice($price)

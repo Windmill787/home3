@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824aa2e4-869e-448e-807e-1053627de799" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.php" afterPath="$PROJECT_DIR$/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/furn/Locker/LockerInterface.php" afterPath="$PROJECT_DIR$/furn/Locker/LockerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/furn/Bed/Params.php" afterPath="$PROJECT_DIR$/furn/Bed/Params.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/furn/Locker/MainLocker.php" afterPath="$PROJECT_DIR$/furn/Locker/MainLocker.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/furn/Locker/Params.php" afterPath="$PROJECT_DIR$/furn/Locker/Params.php" />
     </list>
@@ -30,8 +29,8 @@
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="e#6#82#0#PHP" expanded="true" />
               </folding>
@@ -62,7 +61,7 @@
       <file leaf-file-name="MainBed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furn/Bed/MainBed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="810">
               <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding />
             </state>
@@ -92,18 +91,28 @@
       <file leaf-file-name="Params.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furn/Locker/Params.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainLocker.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainLocker.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furn/Locker/MainLocker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="144">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parameters.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/furn/Traits/Parameters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -112,18 +121,8 @@
       <file leaf-file-name="Params.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furn/Bed/Params.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -144,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stand/Tumba.php" />
-        <option value="$PROJECT_DIR$/stand/Furniture.php" />
         <option value="$PROJECT_DIR$/furniture/Parameters.php" />
         <option value="$PROJECT_DIR$/furniture/stand/Furniture.php" />
         <option value="$PROJECT_DIR$/furniture/locker/Furniture.php" />
@@ -187,14 +184,16 @@
         <option value="$PROJECT_DIR$/furn/Abstract/UseAbs.php" />
         <option value="$PROJECT_DIR$/furn/Abstract/RealisationAbs.php" />
         <option value="$PROJECT_DIR$/furn/Abstract/AbsClass.php" />
-        <option value="$PROJECT_DIR$/furn/Bed/Params.php" />
         <option value="$PROJECT_DIR$/furn/Bed/AbsClass.php" />
         <option value="$PROJECT_DIR$/furn/Bed/MainBed.php" />
         <option value="$PROJECT_DIR$/furn/Locker/AbsClass.php" />
         <option value="$PROJECT_DIR$/furn/Locker/LockerInterface.php" />
+        <option value="$PROJECT_DIR$/furn/Treits/Params.php" />
+        <option value="$PROJECT_DIR$/furn/Bed/Params.php" />
+        <option value="$PROJECT_DIR$/furn/Traits/Parameters.php" />
         <option value="$PROJECT_DIR$/furn/Locker/Params.php" />
-        <option value="$PROJECT_DIR$/Index.php" />
         <option value="$PROJECT_DIR$/furn/Locker/MainLocker.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
       </list>
     </option>
   </component>
@@ -267,6 +266,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="furn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traits" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,12 +394,12 @@
       <workItem from="1477758720184" duration="21195000" />
       <workItem from="1477783208916" duration="8856000" />
       <workItem from="1477820943178" duration="4838000" />
-      <workItem from="1477826645929" duration="1528000" />
+      <workItem from="1477826645929" duration="3955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51595000" />
+    <option name="totallyTimeSpent" value="54022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1311" height="744" extended-state="6" />
@@ -425,9 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/furniture/stand/Furniture.php" />
-    <entry file="file://$PROJECT_DIR$/furniture/locker/Furniture.php" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/furniture/stand/StandInterface.php" />
     <entry file="file://$PROJECT_DIR$/furniture/locker/LockerInterface.php" />
     <entry file="file://$PROJECT_DIR$/furniture/Basic.php" />
@@ -487,46 +501,6 @@
     <entry file="file://$PROJECT_DIR$/furn/Abstract/UseAbs.php" />
     <entry file="file://$PROJECT_DIR$/furn/Abstract/RealisationAbs.php" />
     <entry file="file://$PROJECT_DIR$/furn/Abstract/AbsClass.php" />
-    <entry file="file://$PROJECT_DIR$/furn/Bed/BedInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furn/Bed/Params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furn/Bed/AbsClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furn/Bed/MainBed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furn/Locker/Params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furn/Locker/LockerInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -543,20 +517,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Bed/BedInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Bed/AbsClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Treits/Params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Treits/Parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Locker/Params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Bed/Params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Locker/MainLocker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furn/Bed/MainBed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furn/Locker/MainLocker.php">
+    <entry file="file://$PROJECT_DIR$/furn/Traits/Parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="162">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
