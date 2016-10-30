@@ -7,7 +7,7 @@
  * Time: 1:58
  */
 
-namespace dir\Furn\Bed;
+namespace Dir\Furn\Bed;
 
 interface BedInterface
 {

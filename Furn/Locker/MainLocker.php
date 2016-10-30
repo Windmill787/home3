@@ -7,7 +7,7 @@
  * Time: 1:57
  */
 
-namespace dir\Furn\Locker;
+namespace Dir\Furn\Locker;
 
 class MainLocker extends AbsClass implements LockerInterface
 {

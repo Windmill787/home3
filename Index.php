@@ -8,5 +8,5 @@
 
 require 'vendor/autoload.php';
 
-$obj = new \dir\Furn\Locker\MainLocker('name');
+$obj = new \Dir\Furn\Locker\MainLocker('name');
 echo $obj->name;

@@ -7,7 +7,7 @@
  * Time: 2:01
  */
 
-namespace dir\Furn\Locker;
+namespace Dir\Furn\Locker;
 
 interface LockerInterface
 {
