@@ -15,6 +15,4 @@ interface LockerInterface
 
     public function allInfo();
 
-    public function infoPrice();
-
 }

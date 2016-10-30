@@ -12,8 +12,8 @@ namespace dir\furn\Locker;
 class Params
 {
     public $name = 'name of locker';
-    public $width = 0;
-    public $height = 0;
+    public static $width = 0;
+    public static $height = 0;
     public $price = 0;
     public $countPol = 0;
 }

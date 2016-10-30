@@ -14,8 +14,8 @@ class MainLocker extends AbsClass implements LockerInterface
     public function __construct($n, $wi, $h, $p)
     {
         $this->name = $n;
-        $this->width = $wi;
-        $this->height = $h;
+        self::$width = $wi;
+        self::$height = $h;
         $this->price = $p;
 
     }
@@ -23,27 +23,34 @@ class MainLocker extends AbsClass implements LockerInterface
     public function allInfo()
     {
         echo $this->name, "\n"
-            .$this->width, "\n"
-            .$this->height, "\n"
+            .self::$width, "\n"
+            .self::$height, "\n"
             .$this->price, "\n";
     }
 
-    public function infoPrice()
+    public function setPrice($price)
     {
-        $ans = $this->name.' '.$this->price.' ';
-        return $ans;
+        $this->price = $price;
+        return $price;
     }
 
     public function area()
     {
-        $area = $this->width * $this->height;
+        $area = static::$width * static::$height;
         echo $area;
     }
 
     public function difference()
     {
-        $diff = $this->width - $this->height;
+        $diff = self::$width - self::$height;
         echo $diff;
+    }
+
+    public static function changeSize($sizeW, $sizeH)
+    {
+        static::$width = $sizeW;
+        static::$height = $sizeH;
+        echo static::$width.' '.static::$height;
     }
 
 }
