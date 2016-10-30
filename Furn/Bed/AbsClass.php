@@ -11,5 +11,10 @@ namespace Dir\Furn\Bed;
 
 abstract class AbsClass extends Params
 {
+    /**
+     * @params integer $place
+     * @params integer $floors
+     * @return integer $people
+     */
     abstract public function people();
 }

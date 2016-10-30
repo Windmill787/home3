@@ -7,6 +7,3 @@
  */
 
 require 'vendor/autoload.php';
-
-$obj = new \Dir\Furn\Locker\MainLocker('name');
-echo $obj->name;

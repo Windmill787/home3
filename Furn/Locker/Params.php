@@ -15,6 +15,11 @@ class Params
 {
     use Parameters;
 
+    /**
+     * @var integer
+     * @var integer
+     * @var integer
+     */
     public static $width = 0;
     public static $height = 0;
     private $countPol = 0; //MainLocker will not inherit this property

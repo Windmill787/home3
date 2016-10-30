@@ -10,6 +10,10 @@ namespace Dir\Furn\Locker;
 
 abstract class AbsClass extends Params
 {
+    /**
+     * @params integer $width
+     * @params integer $height
+     * @return integer $diff
+     */
     abstract public function difference();
-
 }

@@ -11,8 +11,16 @@ namespace Dir\Furn\Locker;
 
 interface LockerInterface
 {
+    /**
+     * @params integer $width
+     * @params integer $height
+     * @return integer $area
+     */
     public function area();
 
+    /**
+     * @return string $result
+     */
     public function allInfo();
 
 }

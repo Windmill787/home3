@@ -15,6 +15,12 @@ class Params
 {
     use Parameters;
 
+    /**
+     * @var integer
+     * @var string
+     * @var integer
+     * @var integer
+     */
     public $places = 0;
     public $color = 'color of bed';
     protected $floors = 0; //MainBed will inherit this

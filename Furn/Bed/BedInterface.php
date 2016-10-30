@@ -11,8 +11,15 @@ namespace Dir\Furn\Bed;
 
 interface BedInterface
 {
-    public function showPrice();
+    /**
+     * @param MainBed $object
+     * @return string $price
+     */
+    public function showPrice(MainBed $object);
 
+    /**
+     * @return string $result
+     */
     public function allInfo();
 
 }
