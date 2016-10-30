@@ -9,9 +9,5 @@
 require 'vendor/autoload.php';
 
 $obj2 = new \dir\furn\Locker\MainLocker('namelocker', 2000, 100, 50);
-$obj2->allInfo();
-$obj2->difference();
-$obj2->allInfo();
-
-$obj = new \dir\furn\Bed\MainBed('bed', 2, 2000, 'red', 2);
-$obj->allInfo();
+$obj2->setPrice('4000');
+echo $obj2->getPrice($obj2);

@@ -25,13 +25,18 @@ class MainLocker extends AbsClass implements LockerInterface
             .$this->price, "\n"
             .self::$width, "\n"
             .self::$height, "\n";
-
     }
 
     public function setPrice($price)
     {
         $this->price = $price;
         return $price;
+    }
+
+    public function getPrice(MainLocker $object)
+    {
+        $obj = $this->name.' '.$this->price;
+        return $obj;
     }
 
     public function area()
@@ -52,5 +57,4 @@ class MainLocker extends AbsClass implements LockerInterface
         static::$height = $sizeH;
         echo static::$width.' '.static::$height;
     }
-
 }
