@@ -6,7 +6,7 @@
  * Time: 14:21
  */
 
-namespace Dir\Furn\Traits;
+namespace Vendor\Dir\Traits;
 
 
 trait Parameters

@@ -7,7 +7,7 @@
  * Time: 1:57
  */
 
-namespace Dir\Furn\Bed;
+namespace Vendor\Dir\Bed;
 
 class MainBed extends AbsClass implements BedInterface
 {
