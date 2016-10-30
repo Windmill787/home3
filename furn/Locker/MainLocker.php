@@ -9,7 +9,7 @@
 
 namespace dir\furn\Locker;
 
-class MainLocker extends Params implements LockerInterface
+class MainLocker extends AbsClass implements LockerInterface
 {
     public function __construct($n, $wi, $h, $p)
     {
@@ -38,6 +38,12 @@ class MainLocker extends Params implements LockerInterface
     {
         $area = $this->width * $this->height;
         echo $area;
+    }
+
+    public function difference()
+    {
+        $diff = $this->width - $this->height;
+        echo $diff;
     }
 
 }

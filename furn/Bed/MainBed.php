@@ -47,6 +47,7 @@ class MainBed extends AbsClass implements BedInterface
 
     public function people()
     {
-        // TODO: Implement people() method.
+        $people = $this->places * $this->floors;
+        echo $people;
     }
 }
