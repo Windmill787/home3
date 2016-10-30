@@ -15,6 +15,6 @@ class Params
     public $places = 0;
     public $price = 0;
     public $color = 'color of bed';
-    protected $code = 'secret code';//MainBed will not inherit this
+    protected $doors = 0;//MainBed will not inherit this
     private $numofparams = 5; //and this too
 }
