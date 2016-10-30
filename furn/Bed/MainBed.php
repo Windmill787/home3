@@ -12,7 +12,7 @@ namespace dir\furn\Bed;
 class MainBed extends AbsClass implements BedInterface
 {
     /**
-     * @param name places price and color of Bed
+     * @param name places price color and count of floors(Bed)
      */
     public function __construct($n, $pl, $pr, $c, $d)
     {
@@ -28,12 +28,14 @@ class MainBed extends AbsClass implements BedInterface
      */
     public function allInfo()
     {
-        $result = $this->name.' '
-            .$this->places.' '
-            .$this->price.' '
-            .$this->color.' '
-            .$this->floors;
-        echo $result;
+
+
+        $result = $this->name."\n".
+            $this->places."\n".
+            $this->price."\n".
+            $this->color."\n".
+            $this->floors;
+        return $result;
     }
 
 
@@ -42,12 +44,13 @@ class MainBed extends AbsClass implements BedInterface
      */
     public function showPrice()
     {
-        echo $this->name.' '.$this->price;
+        $price = $this->name."\n".$this->price;
+        return $price;
     }
 
     public function people()
     {
         $people = $this->places * $this->floors;
-        echo $people;
+        return $people;
     }
 }
