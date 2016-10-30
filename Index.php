@@ -7,3 +7,6 @@
  */
 
 require 'vendor/autoload.php';
+
+$obj = new \Vendor\Dir\Bed\MainBed('name');
+echo $obj->allInfo();
