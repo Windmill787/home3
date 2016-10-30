@@ -1,0 +1,20 @@
+{
+    "name": "max/test",
+    "description": "homework3",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Max Stoliarov",
+            "email": "Windmill_78@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload":{
+        "psr-4": {
+            "dir\\": ""
+        }
+    }
+}
