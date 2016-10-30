@@ -7,9 +7,9 @@
  * Time: 1:58
  */
 
-namespace dir\furn\Bed;
+namespace dir\Furn\Bed;
 
-use dir\furn\Traits\Parameters;
+use dir\Furn\Traits\Parameters;
 
 class Params
 {

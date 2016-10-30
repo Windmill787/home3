@@ -7,9 +7,9 @@
  * Time: 1:58
  */
 
-namespace dir\furn\Locker;
+namespace dir\Furn\Locker;
 
-use dir\furn\Traits\Parameters;
+use dir\Furn\Traits\Parameters;
 
 class Params
 {

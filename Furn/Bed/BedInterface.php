@@ -4,14 +4,14 @@
  * Created by PhpStorm.
  * User: max
  * Date: 30.10.16
- * Time: 2:01
+ * Time: 1:58
  */
 
-namespace dir\furn\Locker;
+namespace dir\Furn\Bed;
 
-interface LockerInterface
+interface BedInterface
 {
-    public function area();
+    public function showPrice();
 
     public function allInfo();
 

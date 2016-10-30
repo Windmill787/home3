@@ -6,7 +6,7 @@
  * Time: 12:36
  */
 
-namespace dir\furn\Bed;
+namespace dir\Furn\Bed;
 
 
 abstract class AbsClass extends Params

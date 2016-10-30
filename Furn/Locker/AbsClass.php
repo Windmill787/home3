@@ -6,7 +6,7 @@
  * Time: 13:17
  */
 
-namespace dir\furn\Locker;
+namespace dir\Furn\Locker;
 
 abstract class AbsClass extends Params
 {
