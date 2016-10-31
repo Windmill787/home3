@@ -4,7 +4,7 @@
  * Created by PhpStorm.
  * User: max
  * Date: 30.10.16
- * Time: 1:58
+ * Time: 1:58.
  */
 
 namespace Vendor\Dir\Bed;
@@ -16,10 +16,10 @@ class Params
     use Parameters;
 
     /**
-     * @var integer
+     * @var int
      * @var string
-     * @var integer
-     * @var integer
+     * @var int
+     * @var int
      */
     public $places = 0;
     public $color = 'color of bed';

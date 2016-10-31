@@ -4,7 +4,7 @@
  * Created by PhpStorm.
  * User: max
  * Date: 30.10.16
- * Time: 1:58
+ * Time: 1:58.
  */
 
 namespace Vendor\Dir\Bed;
@@ -13,6 +13,7 @@ interface BedInterface
 {
     /**
      * @param MainBed $object
+     *
      * @return string $price
      */
     public function showPrice(MainBed $object);
@@ -21,5 +22,4 @@ interface BedInterface
      * @return string $result
      */
     public function allInfo();
-
 }

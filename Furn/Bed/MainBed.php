@@ -4,7 +4,7 @@
  * Created by PhpStorm.
  * User: max
  * Date: 30.10.16
- * Time: 1:57
+ * Time: 1:57.
  */
 
 namespace Vendor\Dir\Bed;
@@ -13,10 +13,10 @@ class MainBed extends AbsClass implements BedInterface
 {
     /**
      * @param string $n
-     * @param integer $pl
-     * @param integer $pr
+     * @param int    $pl
+     * @param int    $pr
      * @param string $c
-     * @param integer $d
+     * @param int    $d
      */
     public function __construct($n, $pl, $pr, $c, $d)
     {
@@ -37,9 +37,9 @@ class MainBed extends AbsClass implements BedInterface
             $this->price."\n".
             $this->color."\n".
             $this->floors;
+
         return $result;
     }
-
 
     /**
      * {@inheritdoc}
@@ -47,6 +47,7 @@ class MainBed extends AbsClass implements BedInterface
     public function showPrice(MainBed $object)
     {
         $price = $this->name."\n".$this->price;
+
         return $price;
     }
 
@@ -56,6 +57,7 @@ class MainBed extends AbsClass implements BedInterface
     public function people()
     {
         $people = $this->places * $this->floors;
+
         return $people;
     }
 }
